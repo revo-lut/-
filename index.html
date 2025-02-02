@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой Односторінковий Сайт</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Шапка сайту -->
+  <header class="site-header">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">Про мене</a></li>
+        <li><a href="#services">Послуги</a></li>
+        <li><a href="#portfolio">Портфоліо</a></li>
+        <li><a href="#contact">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Головна секція -->
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h1>Вітаю!</h1>
+      <p>Це моє перше односторінкове резюме.</p>
+      <a href="#about" class="btn">Дізнатися більше</a>
+    </div>
+  </section>
+
+  <!-- Про мене -->
+  <section id="about" class="about-section">
+    <h2>Про мене</h2>
+    <p>
+      Привіт! Мене звати [Ваше ім'я], і я є [професія]. Я працюю в галузі [галузь] протягом [кількість років] років.
+    </p>
+  </section>
+
+  <!-- Послуги -->
+  <section id="services" class="services-section">
+    <h2>Мої послуги</h2>
+    <div class="service-card">
+      <h3>Веб-розробка</h3>
+      <p>Створюю красиві та функціональні веб-сайти.</p>
+    </div>
+    <div class="service-card">
+      <h3>Дизайн</h3>
+      <p>Розробляю модні дизайн-концепції.</p>
+    </div>
+    <div class="service-card">
+      <h3>SEO-оптимізація</h3>
+      <p>Підвищу видимість вашого сайту у пошукових системах.</p>
+    </div>
+  </section>
+
+  <!-- Портфоліо -->
+  <section id="portfolio" class="portfolio-section">
+    <h2>Моє портфоліо</h2>
+    <div class="project-card">
+      <img src="https://via.placeholder.com/300" alt="Проект 1">
+      <h3>Проект 1</h3>
+      <p>Опис проекту...</p>
+    </div>
+    <div class="project-card">
+      <img src="https://via.placeholder.com/300" alt="Проект 2">
+      <h3>Проект 2</h3>
+      <p>Опис проекту...</p>
+    </div>
+  </section>
+
+  <!-- Контакти -->
+  <section id="contact" class="contact-section">
+    <h2>Контакти</h2>
+    <form action="#" method="POST">
+      <input type="text" placeholder="Ваше ім'я" required>
+      <input type="email" placeholder="Ваш email" required>
+      <textarea placeholder="Повідомлення"></textarea>
+      <button type="submit">Надіслати</button>
+    </form>
+  </section>
+
+  <!-- Підвал -->
+  <footer class="site-footer">
+    <p>&copy; 2023 Мій Односторінковий Сайт. Усі права захищені.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
